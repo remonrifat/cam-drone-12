@@ -19,9 +19,10 @@ const verticalCenter = {
 const Banner = () => {
     return (
         <Container sx={{ flexGrow: 1 }}>
+            <h1>Welcome To CAM DRONE   !</h1>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6} style={verticalCenter}>
-                    <img style={{ width: '500px', mt: '5' }} src={chair} alt="" />
+                    <img style={{ width: '100%', mt: '5' }} src={chair} alt="" />
                 </Grid>
                 <Grid style={{ ...verticalCenter, textAlign: 'left' }} item xs={12} md={6}>
                     <Box>

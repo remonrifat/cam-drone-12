@@ -31,11 +31,11 @@ const Navigation = () => {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                     >
-                        <HomeIcon sx={{ fontSize: 40 }} />
+                        <a href="/home"><HomeIcon sx={{ fontSize: 70 }} /></a>
 
                     </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        WELCOME TO CAM DRONE
+                    <Typography variant="h1" component="div" sx={{ flexGrow: 1, color: 'warning.main' }}>
+                        CAM DRONE
                     </Typography>
                     <Link to='/appointment'><Button style={{ textDecoration: 'none', color: 'white' }} color="inherit">Services</Button> </Link>
                     {

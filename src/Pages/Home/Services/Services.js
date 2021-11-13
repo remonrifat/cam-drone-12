@@ -58,7 +58,7 @@ const Services = () => {
                     }
 
                 </Grid>
-                <h1 sx={{ textAlign: 'center' }} >IF YOU LIKE TO DRONE ,GO TO ORDER!</h1>
+                <h1 sx={{ textAlign: 'center' }} >IF YOU LIKE  DRONE ,GO TO ORDER!</h1>
             </Container>
         </Box>
     );
